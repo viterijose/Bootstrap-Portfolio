@@ -15,3 +15,31 @@
     vertical-align: middle;
     line-height: 88px;
 }
+.h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    width: 208px;
+    color: rgb(15, 163, 138);
+    text-align: left;
+    margin:30px;
+
+}
+.info{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 40px;
+    font-weight: lighter;
+    color: rgb(143,144,146);
+    text-align: justify;
+    padding: 20px;
+    border: 20px 40px 20px 20px;
+}
+hr{
+    display:block;
+    margin: 0.5em 20px 0.5em 30px;
+    border-style: inset;
+    border-width: 1px;
+}
+.pull-left{
+    margin:30px;
+}
