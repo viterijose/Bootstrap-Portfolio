@@ -113,104 +113,112 @@ hr{
 .col-12 {width: 100%;}
 
 [class*="col-"] {
-
-    padding: 15px;
     border: 1px solid red;
 }
 
-@media only screen and (max-width: 980px) {
-    /* For mobile phones: */
-    [class*="col-"] {
-        width: 100%;
+@media screen and (max-width: 640px) {
+   body{ background-color: green;
+   }
+   [class*="col-"] {
+    width:100%;
     }
     .navbar-header{
         position: relative;
-        top:1px;
-        left:115px;
-    } 
-    #link{
-        position: relative;
         top:0;
-        left:-115px;
+        left:0;
+        width:100%
     }
-    .col-lg-8{
-        width:50%;
+    li{
+        float:left;
     }
-    .col-lg-4{
-        width:35%;
-        position: absolute;
-        bottom: 432px;
-        left: 530px;
+    #link{
+        padding:10px 50px 10px 50px;
+        position: relative;
+        top: 0px;
+        left: 10px;
     }
-    .col-lg-12{
+    #img4{
+        width:90%;
+        height:100%;
+        margin: 30px 0 0 30px;
+    }
+    #game{
+        font-size: 80px;
+        background-color: rgb(15, 163, 138);
+        width: 90%;
+        height: 90px;
+        line-height: 90px;
+        position: relative;
+        bottom: 120px;
+        margin: 30px 0 0 30px;
+    }
+}
+@media screen and (min-width:641px) and (max-width: 768px) {
+    [class*="col-"] {
         width:100%;
     }
-    #link1{
-        vertical-align: middle;
+    body{ background-color: blue;}
+    .navbar-header{
         position: relative;
         top:0;
-        left:10px;
-        padding:12px 12px;
+        left:0;
     }
-    .panel-footer{
-        width: 100%;
-
-    }
-    .rounded{
-        width:130%;
-        padding:0;
-
-    }
-    .info{
+    li{
         float:right;
     }
-}
-
-
-@media only screen and (max-width: 768px) {
-    /* For mobile phones: */
-    /* [class*="col-"] {
-        width: 100%;
-    } */
-    /* .navbar-header{
-        position: relative;
-        top:1px;
-        left:10px;
-    } 
     #link{
+        padding:10px 20px 10px 20px;
         position: relative;
-        top:0;
-        left:-15px;
+        top: 0px;
+        left: 10px;
     }
-    .col-lg-4{
-        bottom: 0;
-        left: 0px;
+    ul{
         position: relative;
-        min-height: 1px;
-        padding-right: 15px;
-        padding-left: 15px;
+        top: -115px;
+        left: 0;
     }
-    .col-lg-12{
-        width:100%;
-    }
-    #link1{
-        vertical-align: middle;
+    .navbar-center{
         position: relative;
-        top:0;
-        left:10px;
-        padding:12px 12px;
+        top: 0px;
+        left: -460px;
     }
-    .panel-footer{
-        width: 100%;
-
-    }
-    .rounded{
-        width:100%;
-        padding:0;
-
-    }
-    .info{
-        float:none;
-    } */
 
 }
+@media screen  and (min-width:769px) and (max-width: 980px) {
+    [class*="col-"] {
+        width:100%;
+    }
+    .navbar-header{
+        position: relative;
+        top:0;
+        left:100px;
+    }
+    li{
+        float:right;
+    }
+    #link{
+        padding:10px 20px 10px 20px;
+        position: relative;
+        top: 0px;
+        left: -110px;
+    }
+}
+/* @media screen  and (min-width: 980px) {
+    [class*="col-"] {
+        width:100%;
+    }
+    .navbar-header{
+        position: relative;
+        top:0;
+        left:100px;
+    }
+    li{
+        float:right;
+    }
+    #link{
+        padding:10px 20px 10px 20px;
+        position: relative;
+        top: 0px;
+        left: -110px;
+    }
+} */
