@@ -10,7 +10,7 @@ html , body{
 }
 .container1{
     margin-bottom: 50px;
-    /* min-height: 100%; */
+
 }
 .navbar-header{
     background-color:  rgb(15, 163, 138);
@@ -28,8 +28,8 @@ html , body{
     text-align: center;
     vertical-align: middle;
     line-height: 88px;
-    float:left;
-    padding:0 60px 0 60px;
+    /* float:left; */
+    padding:0 40px 0 40px;
     font-size:20px;
 }
 #link1{
