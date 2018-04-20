@@ -91,19 +91,22 @@ hr{
 }
 #game {
     font-family: 'Georgia';
-    font-size: 500%;
+    font-size: 150%;
     color: whitesmoke;
     text-align: center;
-    line-height: 90px;
-    height: 90px;
+    line-height: 50px;
+    height: 50px;
     width: 90%;
     background-color: rgb(15, 163, 138);
     position: relative;
-    bottom: 150px;
-    left: 30px;
+    bottom: 115px;
+    left: 16px;
 }
 .img-fluid{
     float: left;
+}
+.container-flex{
+    display: flex;
 }
 
 
